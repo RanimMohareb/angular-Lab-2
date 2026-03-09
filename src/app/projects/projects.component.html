@@ -1,48 +1,45 @@
-<div id="Projects" style="padding: 50px 20px; background-color: #f8f9fa; max-width: 1200px; margin: auto; border-radius: 10px;">
+<div id="projects" class="container py-5 my-4 bg-light rounded">
 
-  <h2 style="text-align: center; margin-bottom: 40px; color: #343a40; font-weight: 600;">My Projects</h2>
+  <h2 class="text-center mb-5 text-dark fw-semibold">My Projects</h2>
 
-  <div class="row" style="gap: 20px; justify-content: center;">
+  <div class="row g-4 justify-content-center">
 
-    <!-- Project 1 -->
-    <div class="col-md-4" style="margin-bottom: 20px;">
-      <div class="card" style="border: none; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">
+    <div class="col-md-4">
+      <div class="card border-0 rounded shadow-sm project-card">
         <div class="card-body">
-          <h5 class="card-title" style="color: #28a745; font-weight: 600;">
-            <i class="fa-solid fa-user-check" style="margin-right: 8px;"></i>
+          <h5 class="card-title text-success fw-semibold">
+            <i class="fa-solid fa-user-check me-2"></i>
             Face Recognition Attendance
           </h5>
-          <p class="card-text" style="color: #495057; font-size: 0.95rem;">
+          <p class="card-text text-secondary">
             AI system that automatically records student attendance using face recognition.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Project 2 -->
-    <div class="col-md-4" style="margin-bottom: 20px;">
-      <div class="card" style="border: none; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">
+    <div class="col-md-4">
+      <div class="card border-0 rounded shadow-sm project-card">
         <div class="card-body">
-          <h5 class="card-title" style="color: #17a2b8; font-weight: 600;">
-            <i class="fa-solid fa-language" style="margin-right: 8px;"></i>
+          <h5 class="card-title text-info fw-semibold">
+            <i class="fa-solid fa-language me-2"></i>
             Multilingual Toxic Detection
           </h5>
-          <p class="card-text" style="color: #495057; font-size: 0.95rem;">
+          <p class="card-text text-secondary">
             Machine learning model that detects toxic comments in different languages.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Project 3 -->
-    <div class="col-md-4" style="margin-bottom: 20px;">
-      <div class="card" style="border: none; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">
+    <div class="col-md-4">
+      <div class="card border-0 rounded shadow-sm project-card">
         <div class="card-body">
-          <h5 class="card-title" style="color: #dc3545; font-weight: 600;">
-            <i class="fa-solid fa-heart-pulse" style="margin-right: 8px;"></i>
+          <h5 class="card-title text-danger fw-semibold">
+            <i class="fa-solid fa-heart-pulse me-2"></i>
             Medical Recommendation System
           </h5>
-          <p class="card-text" style="color: #495057; font-size: 0.95rem;">
+          <p class="card-text text-secondary">
             AI system that suggests tests and doctors based on symptoms.
           </p>
         </div>
@@ -52,11 +49,3 @@
   </div>
 
 </div>
-
-<!-- Optional: Add hover effect with inline JS -->
-<script>
-  document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('mouseover', () => card.style.transform = 'translateY(-5px)');
-    card.addEventListener('mouseout', () => card.style.transform = 'translateY(0)');
-  });
-</script>
